@@ -1623,7 +1623,10 @@ form label {
 
 .testimonial-img {
   width: 200px;
-  /* height: 100px; */
+}
+
+.testimonial-img img {
+  border: 1px solid #e7e4e4;
 }
 
 .testimonial-carousel .testimonial-img .btn-square {
