@@ -34,12 +34,15 @@
 	<!-- Magnific Popup -->
 	<link rel="stylesheet" href="css/magnific-popup.css">
 	<!-- Owl Carousel  -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- <link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css"> -->
 	<!-- Flexslider -->
-	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- <link rel="stylesheet" href="css/flexslider.css"> -->
+	<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/margin.css">
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -68,7 +71,7 @@
 							<li><a href="#" data-nav-section="about">Nosotros</a></li>
 							<li><a href="#" data-nav-section="practice-areas">Servicios</a></li>
 							<li><a href="#" data-nav-section="our-team">Sistema</a></li>
-							<li><a href="#" data-nav-section="our-team">Clientes</a></li>
+							<li><a href="#" data-nav-section="clients">Clientes</a></li>
 							<li class="btn-cta"><a href="#" data-nav-section="contact"><span>Contacto</span></a></li>
 							<!-- For external page link -->
 							<!-- <li><a href="http://freehtml5.co/" class="external">External</a></li> -->
@@ -79,7 +82,7 @@
 			</div>
 		</nav>
 
-		<section id="gtco-hero" class="gtco-cover" style="background-image: url(images/img_bg_4.jpg);"
+		<section id="gtco-hero" class="gtco-cover" style="background-image: url(images/carousel-1.jpg);"
 			data-section="home" data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
 			<div class="container">
@@ -87,11 +90,14 @@
 					<div class="col-md-12 col-md-offset-0 text-center">
 						<div class="display-t">
 							<div class="display-tc">
-								<h1 class="animate-box" data-animate-effect="fadeIn">The Greatest Firm You Can Trust
+								<h1 class="animate-box" data-animate-effect="fadeIn"><strong>Pensando el Futuro</strong>
 								</h1>
-								<p class="gtco-video-link animate-box" data-animate-effect="fadeIn"><a
+								<h2>Servicios de alta
+									calidad en materia legal, de ingeniería y
+									finanzas</h2>
+								<!-- <p class="gtco-video-link animate-box" data-animate-effect="fadeIn"><a
 										href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i
-											class="icon-controller-play"></i></a></p>
+											class="icon-controller-play"></i></a></p> -->
 							</div>
 						</div>
 					</div>
@@ -110,21 +116,36 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-6 col-md-pull-1 animate-box" data-animate-effect="fadeInLeft">
+					<!-- <div class="col-md-6 col-md-pull-1 animate-box" data-animate-effect="fadeInLeft">
 						<div class="img-shadow">
-							<!-- <img src="images/img_1.jpg" class="img-responsive"
-								alt="Free HTML5 Bootstrap Template by FreeHTML5.co"> -->
 							<img src="images/logo-05.svg">
 						</div>
+					</div> -->
+					<div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+						<h2 class="heading-colored">Quienes Somos</h2>
+						<p>Con más de 10 años de experiencia, prestando servicios orientados a brindar soluciones
+							integrales en materia de Ingeniería Ambiental, Seguridad e Higiene en el trabajo.
+							<br>Buscamos
+							mejorar y revolucionar el enfoque de nuestros clientes impulsando el crecimiento y
+							rentabilidad de sus proyectos a través de un impacto significativo
+						</p>
+						<!-- <p><a href="#" class="read-more">Read more <i class="icon-chevron-right"></i></a></p> -->
 					</div>
-					<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-						<h2 class="heading-colored">Excellence &amp; Honesty</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aut praesentium nihil hic
-							quam culpa magnam ducimus suscipit repellat quidem cumque, unde impedit, labore earum
-							eligendi perspiciatis nemo molestiae sequi veritatis. Veritatis, reprehenderit, eaque!
-							Rerum, libero ipsam enim, iusto adipisci quae repellendus officia consequatur ducimus
-							cupiditate impedit, aliquam numquam excepturi.</p>
-						<p><a href="#" class="read-more">Read more <i class="icon-chevron-right"></i></a></p>
+					<div class="col-md-4 animate-box" data-animate-effect="fadeInTop">
+						<h2 class="heading-colored">Equipo</h2>
+						<p>Contamos con un grupo de profesionales especializados en distintas areas que nos permiten
+							cumplir acabadamente con los objetivos. <br>Trabajamos para que cada proyecto cumpla las
+							necesidades y exigencias de nustros clientes en forma integral, holística e
+							interdisciplinaria.</p>
+						<!-- <p><a href="#" class="read-more">Read more <i class="icon-chevron-right"></i></a></p> -->
+					</div>
+					<div class="col-md-4 animate-box" data-animate-effect="fadeInRight">
+						<h2 class="heading-colored">Trayectoria</h2>
+						<p>Nuestro crecimiento constante, incluso en epocas de recesión, se debe en gran medida a que
+							contamos con un grupo homogéneo de colaboradores comprometidos en una conducta profesional y
+							responsable, como así también a la incorporación de una infraestructura de avanzada y
+							necesaria para realizar con eficacia los proyectos adjudicados.</p>
+						<!-- <p><a href="#" class="read-more">Read more <i class="icon-chevron-right"></i></a></p> -->
 					</div>
 				</div>
 			</div>
@@ -134,13 +155,55 @@
 			<div class="container">
 				<div class="row row-pb-md">
 					<div class="col-md-8 col-md-offset-2 heading animate-box" data-animate-effect="fadeIn">
-						<h1>Practice Areas</h1>
-						<p class="sub">Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias
-							autem provident. Odit ab aliquam dolor eius.</p>
-						<p class="subtle-text animate-box" data-animate-effect="fadeIn">Practice <span>Areas</span></p>
+						<h1>Nuestros Servicios</h1>
+						<p class="sub">Brindamos una gran variedad de servicios relacionados a la
+							ingeniería ambiental, las finanzas verdes, asesoramiento legal,
+							gestión ambiental y en EHS, entre otros.</p>
+						<p class="subtle-text animate-box" data-animate-effect="fadeIn">Servicios</p>
 					</div>
 				</div>
 				<div class="row">
+					<div class="col-md-6">
+						<div class="service-item rounded overflow-hidden">
+							<img class="img-fluid" src="images/img-600x400-2.jpg" alt="">
+							<h3 class="mt-5 ml-4 heading-colored">Gerenciamiento y Proyecto</h3>
+							<p>
+								Estudios de factibilidad, Anteproyectos/Proyectos, Evaluación, dirección y
+								representación en
+								proyectos energéticos y
+								eficiencia energética.</p>
+						</div>
+						<div class="service-item rounded overflow-hidden">
+							<img class="img-fluid" src="images/img-600x400-1.jpg" alt="">
+							<h3 class="mt-5 ml-4 heading-colored">Consultoria Integral</h3>
+							<p>
+								Desde el marco legal y teórico hasta la dirección y
+								representación técnica de proyectos de sector
+								público y privado.<br>Abarcamos todo el espectro.</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="service-item rounded overflow-hidden">
+							<img class="img-fluid" src="images/img-600x400-3.jpg" alt="">
+							<h3 class="mt-5 ml-4 heading-colored">Medio Ambiente</h3>
+							<p>
+								Diseño de Planes de Gestión Ambiental. Auditorías y Monitoreo.
+								Relevamientos y confección de Estudios de Impacto Ambiental.
+								Gestión y representación ante entes gubernamentales
+								o reguladores.
+							</p>
+						</div>
+						<div class="service-item rounded overflow-hidden">
+							<img class="img-fluid" src="images/img-600x400-4.jpg" alt="">
+							<h3 class="mt-5 ml-4 heading-colored">I+D</h3>
+							<p>Auditorias Internas: Control documental, Evaluación
+								de riesgos e Investigación y mitigación de
+								incidentes, Ergonomia en el trabajo.Huella, Bonos verdes y Carbono Neutralidad.</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- <div class="row">
 					<div class="col-md-6">
 						<div class="gtco-practice-area-item animate-box">
 							<div class="gtco-icon">
@@ -218,11 +281,11 @@
 						</div>
 
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</section>
 
-		<section id="gtco-our-team" data-section="our-team">
+		<!-- <section id="gtco-our-team" data-section="our-team">
 			<div class="container">
 				<div class="row row-pb-md">
 					<div class="col-md-8 col-md-offset-2 heading animate-box" data-animate-effect="fadeIn">
@@ -277,36 +340,121 @@
 				</div>
 
 			</div>
+		</section> -->
+
+		<!-- Clients Start -->
+		<section id="gtco-clients" data-section="clients">
+			<div class="container">
+				<div class="row row-pb-md">
+					<div class="col-md-8 col-md-offset-2 heading animate-box" data-animate-effect="fadeIn">
+						<h1>Nuestros Clientes</h1>
+						<p class="sub">Brindamos una gran variedad de servicios relacionados a la
+							ingeniería ambiental, las finanzas verdes, asesoramiento legal,
+							gestión ambiental y en EHS, entre otros.</p>
+						<p class="subtle-text animate-box" data-animate-effect="fadeIn">Clientes</p>
+					</div>
+				</div>
+				<div class="row" style="z-index: 1;">
+					<div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+						<div class="testimonial-item text-center">
+							<div class="testimonial-img position-relative">
+								<!-- <img class="img-fluid rounded-circle mx-auto mb-5" src="images/testimonial-1.jpg"> -->
+								<div class="btn-square bg-primary rounded-circle">
+									<i class="fa fa-quote-left text-white"></i>
+								</div>
+							</div>
+							<div class="owl-item testimonial-text text-center rounded p-4">
+								<div class="testimonial-img">
+									<img src="images/clients/byyyy-1.jpg">
+								</div>
+								<!-- <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed.
+									Magna
+									ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum
+									justo
+									sea
+									clita.</p>
+								<h5 class="mb-1">Client Name</h5>
+								<span class="fst-italic">Profession</span> -->
+							</div>
+						</div>
+						<div class="testimonial-item text-center">
+							<div class="testimonial-img position-relative">
+								<!-- <img class="img-fluid rounded-circle mx-auto mb-5" src="images/testimonial-2.jpg"> -->
+								<div class="btn-square bg-primary rounded-circle">
+									<i class="fa fa-quote-left text-white"></i>
+								</div>
+							</div>
+							<div class="testimonial-text text-center rounded p-4">
+								<div class="testimonial-img">
+									<img src="images/clients/cfe-1.jpg">
+								</div>
+								<!-- <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed.
+									Magna
+									ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum
+									justo
+									sea
+									clita.</p> -->
+								<!-- <h5 class="mb-1">Client Name</h5>
+								<span class="fst-italic">Profession</span> -->
+							</div>
+						</div>
+						<div class="testimonial-item text-center">
+							<div class="testimonial-img position-relative">
+								<!-- <img class="img-fluid rounded-circle mx-auto mb-5" src="images/testimonial-3.jpg"> -->
+								<div class="btn-square bg-primary rounded-circle">
+									<i class="fa fa-quote-left text-white"></i>
+								</div>
+							</div>
+							<div class="testimonial-text text-center rounded p-4">
+								<div class="testimonial-img">
+									<img src="images/clients/pampa-1.jpg">
+								</div>
+								<!-- <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed.
+									Magna
+									ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum
+									justo
+									sea
+									clita.</p> -->
+								<!-- <h5 class="mb-1">Client Name</h5>
+								<span class="fst-italic">Profession</span> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
+		<!-- Clients End -->
+
 
 		<section id="gtco-contact" data-section="contact">
 			<div class="container">
 				<div class="row row-pb-md">
 					<div class="col-md-8 col-md-offset-2 heading animate-box" data-animate-effect="fadeIn">
-						<h1>Contact Us</h1>
-						<p class="sub">Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias
-							autem provident. Odit ab aliquam dolor eius.</p>
-						<p class="subtle-text animate-box" data-animate-effect="fadeIn">Contact</p>
+						<h1>Contacto</h1>
+						<p class="sub">Si necesita realizarnos alguna consulta sobre nuestros servicios, puede
+							completar
+							el formulario siguiente. Responderemos a la brevedad, muchas gracias.</p>
+						<p class="subtle-text animate-box" data-animate-effect="fadeIn">Contacto</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-6 col-md-push-6 animate-box">
 						<form action="#">
 							<div class="form-group">
-								<label for="name" class="sr-only">Name</label>
-								<input type="text" class="form-control" placeholder="Name" id="name">
+								<label for="name" class="sr-only">Nombre</label>
+								<input type="text" class="form-control" placeholder="Nombre" id="name">
 							</div>
 							<div class="form-group">
 								<label for="email" class="sr-only">Email</label>
 								<input type="text" class="form-control" placeholder="Email" id="email">
 							</div>
 							<div class="form-group">
-								<label for="message" class="sr-only">Message</label>
+								<label for="message" class="sr-only">mensaje</label>
 								<textarea name="message" id="message" class="form-control" cols="30" rows="7"
-									placeholder="Message"></textarea>
+									placeholder="Mensaje"></textarea>
 							</div>
 							<div class="form-group">
-								<input type="submit" value="Send Message" class="btn btn-primary">
+								<input type="submit" value="Enviar" class="btn btn-primary">
 							</div>
 						</form>
 					</div>
@@ -367,9 +515,18 @@
 	<!-- Magnific Popup -->
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/magnific-popup-options.js"></script>
+	<script src="lib/owlcarousel/owl.carousel.min.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
 
+	<script type="text/javascript">
+		$(function () {
+			//array of images, I named them in numerical order for simplicty
+			var images = ['carousel-1.jpg', 'carousel-2.jpg', 'carousel-3.jpg'];
+			//jQuery function contains path to images, and function to call a random image.
+			$('.gtco-cover').css({ 'background-image': 'url(images/' + images[Math.floor(Math.random() * images.length)] + ')' });
+		});
+	</script>
 </body>
 
 </html>
