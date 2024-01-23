@@ -96,7 +96,8 @@ figure {
 
 .gtco-nav {
   position: fixed;
-  top: 0;
+  /* SAN */
+  top: 40;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -289,6 +290,8 @@ figure {
   webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+  /*SAN*/
+  top: 0;
 }
 
 .gtco-nav.scrolled ul {
@@ -1670,4 +1673,80 @@ form label {
 
 #gtco-clients .heading .subtle-text span {
   display: block;
+}
+
+
+
+.bg-dark {
+  background-color: #1A2A36 !important
+}
+
+.top-bar {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .top-bar {
+    display: block;
+  }
+}
+
+.d-lg-flex {
+  display: flex;
+}
+
+/*
+.text-start {
+  text-align: left;
+}
+
+.h-100 {
+  height: 100%
+}
+
+.align-items-center {
+  align-items: center !important
+}
+
+.d-inline-flex {
+  display: inline-flex !important
+} */
+
+.top-bar ul li {
+  list-style: none;
+  display: inline;
+  padding: 0 0 0 10px;
+}
+
+
+.top-bar ul li:before {
+  color: #059B9A;
+  position: relative;
+  /* left: 0; */
+  top: .20em;
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.top-bar ul li.address:before {
+  font-size: 22px;
+  content: "\e9d1";
+}
+
+.top-bar ul li.email:before {
+  font-size: 22px;
+  content: "\e9da";
+}
+
+.top-bar ul li.phone:before {
+  font-size: 22px;
+  content: "\e9f4";
 }
