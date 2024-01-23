@@ -888,6 +888,10 @@ figure {
   content: "\e9af";
 }
 
+.gtco-contact-info a {
+  color: #777;
+}
+
 form label {
   font-weight: normal !important;
 }
