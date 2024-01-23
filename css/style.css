@@ -142,7 +142,7 @@ figure {
 }
 
 .gtco-nav #gtco-logo .logo {
-  /* content: url("../images/logo-19.svg"); */
+  content: url("../images/logo-19.svg");
 }
 
 @media screen and (max-width: 768px) {
@@ -331,8 +331,8 @@ figure {
   color: #000;
 }
 
-.gtco-nav-scrolled #gtco-logo .logo {
-  /* content: url("../images/logo-05.svg"); */
+.gtco-nav.scrolled #gtco-logo .logo {
+  content: url("../images/logo-05.svg");
 }
 
 #gtco-hero .gtco-video-link a {
