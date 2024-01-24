@@ -21,6 +21,7 @@ body {
   line-height: 1.8;
   color: #777;
   background: #fff;
+  /* background: url(../images/body-bg.png) no-repeat center; */
 }
 
 #page {
@@ -681,7 +682,7 @@ figure {
   color: #F8F8F8;
   font-weight: 900;
   z-index: -1;
-  line-height: 1;
+  /* line-height: 1; */
 }
 
 #gtco-our-team .heading .subtle-text span {
@@ -690,32 +691,38 @@ figure {
 
 #gtco-our-team .team-item {
   margin-bottom: 9em;
+  /* border: 1px solid #000; */
+}
+
+#gtco-our-team .team-item div {
+  margin-bottom: 9em;
+  /* border: 1px solid red; */
 }
 
 #gtco-our-team .team-item:last-child {
   margin-bottom: 0;
 }
 
-#gtco-our-team .gtco-team-reverse .img-shadow,
+/* #gtco-our-team .gtco-team-reverse .img-shadow,
 #gtco-our-team .gtco-team .img-shadow {
   position: relative;
   background: #059B9A;
   width: 100%;
   float: left;
   margin-bottom: 30px;
-}
+} */
 
-#gtco-our-team .gtco-team-reverse .img-shadow img,
+/* #gtco-our-team .gtco-team-reverse .img-shadow img,
 #gtco-our-team .gtco-team .img-shadow img {
   position: relative;
   top: -20px;
   right: -20px;
-}
+} */
 
-#gtco-our-team .gtco-team .img-shadow img {
+/* #gtco-our-team .gtco-team .img-shadow img {
   top: -20px;
   left: -20px;
-}
+} */
 
 #gtco-contact .heading {
   position: relative;
@@ -942,6 +949,8 @@ form label {
 #gtco-footer {
   padding-top: 30px;
   background: #fafafa;
+  /* background-color: #059B9A;
+  color: #fff; */
 }
 
 #gtco-footer .gtco-footer-links {
@@ -1138,7 +1147,8 @@ form label {
   width: 50px;
   height: 50px;
   display: table;
-  background: rgba(0, 0, 0, 0.5);
+  /* background: rgba(0, 0, 0, 0.5); */
+  background: rgba(5, 155, 154, 0.5);
   color: #fff;
   text-align: center;
   -webkit-border-radius: 4px;
@@ -1749,4 +1759,77 @@ form label {
 .top-bar ul li.phone:before {
   font-size: 22px;
   content: "\e9f4";
+}
+
+.form-contact {
+  background-color: #095169;
+}
+
+
+#section-footer {
+  padding: 3rem;
+  background: #565D67;
+}
+
+#section-footer h2{
+  
+  color: #DCDCDE !important;
+}
+
+.text-gray {
+  color: #DCDCDE !important;
+}
+
+/* New Footer */
+.footer-bs {
+  background-color: #3c3d41;
+  padding: 60px 40px;
+  color: rgba(255,255,255,1.00);
+  margin-bottom: 20px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 6px;
+}
+.footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
+.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
+.footer-bs .footer-brand h2 { margin:0px 0px 10px; }
+.footer-bs .footer-brand p { font-size:12px; color:rgba(255,255,255,0.70); }
+
+.footer-bs .footer-nav ul.pages { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.pages li { padding:5px 0px;}
+.footer-bs .footer-nav ul.pages a { color:rgba(255,255,255,1.00); font-weight:bold; text-transform:uppercase; }
+.footer-bs .footer-nav ul.pages a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+.footer-bs .footer-nav h4 {
+font-size: 11px;
+text-transform: uppercase;
+letter-spacing: 3px;
+margin-bottom:10px;
+}
+
+.footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.list li { padding:5px 0px;}
+.footer-bs .footer-nav ul.list a { color:rgba(255,255,255,0.80); }
+.footer-bs .footer-nav ul.list a:hover { color:rgba(255,255,255,0.60); text-decoration:none; }
+.footer-bs h2 { color:rgba(255,255,255,0.80); }
+
+.footer-bs .footer-social ul { list-style:none; padding:0px; }
+.footer-bs .footer-social h4 {
+font-size: 11px;
+text-transform: uppercase;
+letter-spacing: 3px;
+}
+.footer-bs .footer-social li { padding:5px 4px;}
+.footer-bs .footer-social a { color:rgba(255,255,255,1.00);}
+.footer-bs .footer-social a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+
+.footer-bs .footer-ns h4 {
+font-size: 11px;
+text-transform: uppercase;
+letter-spacing: 3px;
+margin-bottom:10px;
+}
+.footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); }
+
+@media (min-width: 768px) {
+.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
 }
