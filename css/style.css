@@ -596,6 +596,28 @@ figure {
   clear: both;
 }
 
+/* VERSION CON SECCION FONDO VERDE */
+/* #gtco-about {
+  background-color: #059B9A;
+  color: #fff;
+}
+
+#gtco-about h1 {
+  color: #fff !important;
+}
+
+#gtco-about .sub {
+  color: #fff !important;
+}
+
+#gtco-about .heading-colored {
+  color: #fff !important;
+} */
+
+/* FIN VERSION CON SECCION FONDO VERDE */
+
+
+
 #gtco-about .img-shadow {
   position: relative;
   background: #059B9A;
@@ -620,6 +642,8 @@ figure {
   text-transform: uppercase;
   font-size: 208px;
   color: #F8F8F8;
+  /* VERSION FONDO VERDE */
+  /* color: rgba(180, 19, 74, .08); */
   font-weight: 900;
   z-index: -1;
 }
@@ -1773,8 +1797,8 @@ form label {
   background: #565D67;
 }
 
-#section-footer h2{
-  
+#section-footer h2 {
+
   color: #DCDCDE !important;
 }
 
@@ -1786,36 +1810,106 @@ form label {
 .footer-bs {
   background-color: #3c3d41;
   padding: 60px 40px;
-  color: rgba(255,255,255,1.00);
+  color: rgba(255, 255, 255, 1.00);
   margin-bottom: 20px;
   border-bottom-right-radius: 6px;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 6px;
 }
-.footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
-.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
-.footer-bs .footer-brand h2 { margin:0px 0px 10px; }
-.footer-bs .footer-brand p { font-size:14px; color:rgba(255,255,255,0.70); }
 
-.footer-bs .footer-nav ul.pages { list-style:none; padding:0px; }
-.footer-bs .footer-nav ul.pages li { padding:5px 0px;}
-.footer-bs .footer-nav ul.pages a { color:rgba(255,255,255,1.00); font-weight:bold; text-transform:uppercase; }
-.footer-bs .footer-nav ul.pages a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+.footer-bs .footer-brand,
+.footer-bs .footer-nav,
+.footer-bs .footer-social,
+.footer-bs .footer-ns {
+  padding: 10px 25px;
+}
 
-.footer-bs .footer-nav ul.list { list-style:none; padding:0px; font-size: 14px;}
-.footer-bs .footer-nav ul.list li { padding:5px 0px;}
-.footer-bs .footer-nav ul.list a { color:rgba(255,255,255,0.80); }
-.footer-bs .footer-nav ul.list a:hover { color:rgba(255,255,255,0.60); text-decoration:none; }
-.footer-bs h2 { color:rgba(255,255,255,0.80); }
+.footer-bs .footer-nav,
+.footer-bs .footer-social,
+.footer-bs .footer-ns {
+  border-color: transparent;
+}
 
-.footer-bs .footer-social ul { list-style:none; padding:0px; }
+.footer-bs .footer-brand h2 {
+  margin: 0px 0px 10px;
+}
 
-.footer-bs .footer-social li { padding:5px 4px;}
-.footer-bs .footer-social a { color:rgba(255,255,255,1.00);}
-.footer-bs .footer-social a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+.footer-bs .footer-brand p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.70);
+}
 
-.footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); }
+.footer-bs .footer-nav ul.pages {
+  list-style: none;
+  padding: 0px;
+}
+
+.footer-bs .footer-nav ul.pages li {
+  padding: 5px 0px;
+}
+
+.footer-bs .footer-nav ul.pages a {
+  color: rgba(255, 255, 255, 1.00);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.footer-bs .footer-nav ul.pages a:hover {
+  color: rgba(255, 255, 255, 0.80);
+  text-decoration: none;
+}
+
+.footer-bs .footer-nav ul.list {
+  list-style: none;
+  padding: 0px;
+  font-size: 14px;
+}
+
+.footer-bs .footer-nav ul.list li {
+  padding: 5px 0px;
+}
+
+.footer-bs .footer-nav ul.list a {
+  color: rgba(255, 255, 255, 0.80);
+}
+
+.footer-bs .footer-nav ul.list a:hover {
+  color: rgba(255, 255, 255, 0.60);
+  text-decoration: none;
+}
+
+.footer-bs h2 {
+  color: rgba(255, 255, 255, 0.80);
+}
+
+.footer-bs .footer-social ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.footer-bs .footer-social li {
+  padding: 5px 4px;
+}
+
+.footer-bs .footer-social a {
+  color: rgba(255, 255, 255, 1.00);
+}
+
+.footer-bs .footer-social a:hover {
+  color: rgba(255, 255, 255, 0.80);
+  text-decoration: none;
+}
+
+.footer-bs .footer-ns p {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.70);
+}
 
 @media (min-width: 768px) {
-.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
+
+  .footer-bs .footer-nav,
+  .footer-bs .footer-social,
+  .footer-bs .footer-ns {
+    border-left: solid 1px rgba(255, 255, 255, 0.10);
+  }
 }
