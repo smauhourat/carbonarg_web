@@ -847,6 +847,10 @@ figure {
   color: #059B9A;
 }
 
+hr .sep {
+  border: 10px solid green;
+}
+
 .read-more i {
   position: relative;
   top: 2px;
