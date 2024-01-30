@@ -823,6 +823,8 @@ figure {
 }
 
 .heading .sub {
+  text-align: justify;
+  /*nuevo*/
   position: relative;
   padding-bottom: 40px;
   font-size: 18px;
