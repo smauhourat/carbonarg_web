@@ -42,7 +42,7 @@
 	<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css?v1.0">
 	<link rel="stylesheet" href="css/margin.css">
 
 	<!-- Favicons -->
@@ -108,9 +108,13 @@
 			</div>
 		</nav>
 
-		<section id="gtco-hero" class="gtco-cover" style="background-image: url(images/carousel-1.jpg);"
-			data-section="home" data-stellar-background-ratio="0.5">
+		<!-- style="background-image: url(images/carousel-1.jpg);" -->
+		<section id="gtco-hero" class="gtco-cover" data-section="home" data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
+			<video autoplay loop muted plays-inline id="video1" class="main-banner__video" poster="videos/video.png">
+				<source src="videos/video.mp4" class="h-100">
+			</video>
+
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 col-md-offset-0 text-center">
@@ -121,14 +125,12 @@
 								<h2>Servicios de alta
 									calidad en materia legal, de ingeniería y
 									finanzas</h2>
-								<!-- <p class="gtco-video-link animate-box" data-animate-effect="fadeIn"><a
-										href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i
-											class="icon-controller-play"></i></a></p> -->
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+
 		</section>
 
 		<section id="gtco-about" data-section="about">
@@ -493,12 +495,12 @@
 	<script src="js/main.js"></script>
 
 	<script type="text/javascript">
-		$(function () {
-			//array of images, I named them in numerical order for simplicty
-			var images = ['carousel-1.jpg', 'carousel-2.jpg', 'carousel-3.jpg'];
-			//jQuery function contains path to images, and function to call a random image.
-			$('.gtco-cover').css({ 'background-image': 'url(images/' + images[Math.floor(Math.random() * images.length)] + ')' });
-		});
+		// $(function () {
+		// 	//array of images, I named them in numerical order for simplicty
+		// 	var images = ['carousel-1.jpg', 'carousel-2.jpg', 'carousel-3.jpg'];
+		// 	//jQuery function contains path to images, and function to call a random image.
+		// 	$('.gtco-cover').css({ 'background-image': 'url(images/' + images[Math.floor(Math.random() * images.length)] + ')' });
+		// });
 	</script>
 </body>
 

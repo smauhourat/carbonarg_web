@@ -498,7 +498,7 @@ figure {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(35, 35, 35, 0.5);
+  background: rgba(20, 20, 20, 0.5);
 }
 
 .gtco-cover>.container {
@@ -1999,4 +1999,20 @@ form label {
 
 .card4 h3 {
   color: #6c6a6a;
+}
+
+/* Header Video */
+.main-banner__video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  min-width: 100%;
+  /* min-height: 100%; */
+  height: inherit !important;
+  /* z-index: 2; */
+}
+
+video {
+  z-index: -1;
+  object-fit: cover;
 }
