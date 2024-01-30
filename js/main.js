@@ -239,7 +239,6 @@
 	var cta = function () {
 		$('.js-cta-btn').on('click', function (event) {
 			event.preventDefault();
-			console.log('CTA');
 			var section = 'practice-areas';
 			$('html, body').animate({
 				scrollTop: $('[data-section="' + section + '"]').offset().top - 55

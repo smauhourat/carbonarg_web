@@ -80,6 +80,13 @@ figure {
   margin: 0 0 30px 0;
 }
 
+.section-title {
+  font-weight: 800;
+  font-size: 48px;
+  color: #232E5B;
+  /* color: #091E3E; */
+}
+
 ::-webkit-selection {
   color: #fff;
   background: #059B9A;
@@ -388,6 +395,14 @@ figure {
   #gtco-hero .btn {
     /* display: block;
     width: 100%; */
+  }
+
+  #gtco-about,
+  #gtco-practice-areas,
+  #gtco-our-team,
+  #gtco-contact,
+  #gtco-clients {
+    padding: 3em 0 !important;
   }
 }
 
@@ -817,7 +832,8 @@ figure {
   position: absolute;
   width: 72px;
   height: 2px;
-  background: #059B9A;
+  background: #232E5B;
+  /* background: #059B9A; */
 }
 
 .heading-colored {
