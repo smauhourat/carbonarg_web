@@ -62,6 +62,7 @@
 	var navigation = function () {
 
 		$('body').on('click', '#gtco-offcanvas ul a:not([class="external"]), .main-nav a:not([class="external"])', function (event) {
+			console.log('CLICK');
 			var section = $(this).data('nav-section');
 			if ($('[data-section="' + section + '"]').length) {
 				$('html, body').animate({
@@ -235,6 +236,18 @@
 
 	};
 
+	var cta = function () {
+		$('.js-cta-btn').on('click', function (event) {
+			event.preventDefault();
+			console.log('CTA');
+			var section = 'practice-areas';
+			$('html, body').animate({
+				scrollTop: $('[data-section="' + section + '"]').offset().top - 55
+			}, 500, 'easeInOutExpo');
+
+		})
+	}
+
 	var goToTop = function () {
 
 		$('.js-gotop').on('click', function (event) {
@@ -302,6 +315,7 @@
 		navigationSection();
 		contentWayPoint();
 		dropdown();
+		cta();
 		goToTop();
 		loaderPage();
 	});
