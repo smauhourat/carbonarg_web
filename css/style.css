@@ -91,6 +91,12 @@ figure {
   /* color: #091E3E; */
 }
 
+.section-title.white {
+  font-weight: 700;
+  font-size: 52px;
+  color: #fff !important;
+}
+
 ::-webkit-selection {
   color: #fff;
   background: #059B9A;
@@ -405,6 +411,7 @@ figure {
   #gtco-practice-areas,
   #gtco-our-team,
   #gtco-contact,
+  #gtco-numbers,
   #gtco-clients {
     padding: 3em 0 !important;
   }
@@ -610,6 +617,7 @@ figure {
 #gtco-practice-areas,
 #gtco-our-team,
 #gtco-contact,
+#gtco-numbers,
 #gtco-clients {
   padding: 7em 0;
   clear: both;
@@ -829,6 +837,15 @@ figure {
   padding-bottom: 40px;
   font-size: 18px;
   color: #757575;
+}
+
+.heading .sub.white {
+  text-align: justify;
+  /*nuevo*/
+  position: relative;
+  padding-bottom: 40px;
+  font-size: 18px;
+  color: #fff;
 }
 
 .heading .sub:after {
@@ -1666,27 +1683,24 @@ btn-info new: 095169
 
 
 /*** Testimonial ***/
-.testimonial-carousel::before {
+
+/* .testimonial-carousel::before {
   position: absolute;
   content: "";
-  /* top: 0;
-  left: 0; */
   height: 100%;
   width: 0;
   background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
   z-index: 1;
-}
+} */
 
-.testimonial-carousel::after {
+/* .testimonial-carousel::after {
   position: absolute;
   content: "";
-  /* top: 0;
-  right: 0; */
   height: 100%;
   width: 0;
   background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
   z-index: 1;
-}
+} */
 
 @media (min-width: 768px) {
 
@@ -2108,4 +2122,53 @@ video {
 .img-filter {
   -webkit-filter: sepia(25%);
   filter: sepia(25%);
+}
+
+
+#gtco-numbers .heading {
+  position: relative;
+}
+
+#gtco-numbers .heading .subtle-text {
+  position: absolute;
+  bottom: -1em;
+  left: 0;
+  text-transform: uppercase;
+  font-size: 208px;
+  color: #F8F8F8;
+  font-weight: 900;
+  z-index: -1;
+  line-height: 1;
+}
+
+#gtco-numbers .heading .subtle-text span {
+  display: block;
+}
+
+#gtco-numbers .form-group {
+  margin-bottom: 30px;
+}
+
+#gtco-numbers .form-control {
+  height: 70px;
+  font-size: 18px;
+  box-shadow: none !important;
+  border: 1px solid #cccccc;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #fff;
+}
+
+#gtco-numbers textarea {
+  height: inherit !important;
+  resize: vertical;
+}
+
+#gtco-numbers h3 {
+  color: #fff;
+  font-size: 30px;
+}
+
+.text-white {
+  color: #fff !important;
 }

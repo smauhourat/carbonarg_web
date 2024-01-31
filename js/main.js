@@ -279,6 +279,12 @@
 		$(".gtco-loader").fadeOut("slow");
 	};
 
+	// Facts counter
+	/* E:\Personales\Adhentux\Templates\themewagon.github.io\Free bundle 2023\greenhost-1.0.0\lib\counterup */
+	// $("[data-toggle='counter - up']").counterUp({
+	// 	delay: 10,
+	// 	time: 2000
+	// });
 
 	// Testimonials carousel
 	$(".testimonial-carousel").owlCarousel({
