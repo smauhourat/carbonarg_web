@@ -85,8 +85,8 @@ figure {
 }
 
 .section-title {
-  font-weight: 800;
-  font-size: 48px;
+  font-weight: 700;
+  font-size: 52px;
   color: #232E5B;
   /* color: #091E3E; */
 }
@@ -1359,7 +1359,7 @@ form label {
   padding: 8px 30px;
 }
 
-.btn.btn-md {
+.btn .btn-md {
   padding: 8px 20px !important;
 }
 
@@ -1426,10 +1426,15 @@ form label {
   color: #fff;
 }
 
+/*
+btn-info old: 095169
+btn-info new: 095169
+*/
+
 .btn-info {
-  background: #5bc0de;
+  background: #095169;
   color: #fff;
-  border: 2px solid #5bc0de;
+  border: 2px solid #095169;
 }
 
 .btn-info:hover,
@@ -1441,14 +1446,14 @@ form label {
 
 .btn-info.btn-outline {
   background: transparent;
-  color: #5bc0de;
-  border: 2px solid #5bc0de;
+  color: #095169;
+  border: 2px solid #095169;
 }
 
 .btn-info.btn-outline:hover,
 .btn-info.btn-outline:focus,
 .btn-info.btn-outline:active {
-  background: #5bc0de;
+  background: #095169;
   color: #fff;
 }
 
@@ -2082,4 +2087,9 @@ form label {
 video {
   z-index: -1;
   object-fit: cover;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
 }
