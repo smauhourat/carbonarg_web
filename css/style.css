@@ -847,9 +847,18 @@ figure {
   color: #059B9A;
 }
 
-hr .sep {
-  border: 10px solid green;
+.higlight-title {
+  /* bottom: 0; */
+  /* left: 5%; */
+  margin-left: 0px;
+  left: 0%;
+  content: "";
+  position: relative;
+  width: 80%;
+  height: 0.15rem;
+  background: #97b8b8;
 }
+
 
 .read-more i {
   position: relative;
