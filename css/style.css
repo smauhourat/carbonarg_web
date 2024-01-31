@@ -844,7 +844,8 @@ figure {
 }
 
 .heading-colored {
-  color: #059B9A;
+  /* color: #059B9A; */
+  color: #232E5B;
 }
 
 .higlight-title {
@@ -2102,4 +2103,9 @@ video {
   height: 100%; */
   z-index: 3;
   background: url('../images/bck-pixel.png');
+}
+
+.img-filter {
+  -webkit-filter: sepia(25%);
+  filter: sepia(25%);
 }
