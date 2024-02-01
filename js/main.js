@@ -199,12 +199,20 @@
 								el.addClass('fadeInLeft animated-fast');
 							} else if (effect === 'fadeInRight') {
 								el.addClass('fadeInRight animated-fast');
+							} else if (effect === 'slideInDown') {
+								el.addClass('slideInDown animated-fast');
+							} else if (effect === 'slideInUp') {
+								el.addClass('slideInUp animated-fast');
+							} else if (effect === 'slideInLeft') {
+								el.addClass('slideInLeft animated-fast');
+							} else if (effect === 'slideInRight') {
+								el.addClass('slideInRight animated-fast');
 							} else {
 								el.addClass('fadeInUp animated-fast');
 							}
 
 							el.removeClass('item-animate');
-						}, k * 200, 'easeInOutExpo');
+						}, k * 50, 'easeInOutExpo'); /* estaba k * 200 y era mas lento */
 					});
 
 				}, 100);
@@ -286,28 +294,36 @@
 	// 	time: 2000
 	// });
 
-	// Testimonials carousel
-	$(".testimonial-carousel").owlCarousel({
-		autoplay: true,
-		smartSpeed: 1000,
-		center: true,
-		dots: false,
-		autoWidth: true,
-		loop: true,
-		nav: true,
-		navText: [
-			'<i class="bi bi-arrow-left"></i>',
-			'<i class="bi bi-arrow-right"></i>'
-		],
-		responsive: {
-			0: {
-				items: 1
-			},
-			768: {
-				items: 2
+	var counter = function () {
+		$("[data-toggle='counter-up']").counterUp({
+			delay: 10,
+			time: 2000
+		});
+	};
+
+	var testimonialCarousel = function () {
+		$(".testimonial-carousel").owlCarousel({
+			autoplay: true,
+			smartSpeed: 1000,
+			center: true,
+			dots: false,
+			autoWidth: true,
+			loop: true,
+			nav: true,
+			navText: [
+				'<i class="fa fa-chevron-left"></i>',
+				'<i class="fa fa-chevron-right"></i>'
+			],
+			responsive: {
+				0: {
+					items: 1
+				},
+				768: {
+					items: 2
+				}
 			}
-		}
-	});
+		});
+	}
 
 
 	$(function () {
@@ -322,6 +338,8 @@
 		dropdown();
 		cta();
 		goToTop();
+		testimonialCarousel();
+		counter();
 		loaderPage();
 	});
 

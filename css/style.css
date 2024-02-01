@@ -617,9 +617,13 @@ figure {
 #gtco-practice-areas,
 #gtco-our-team,
 #gtco-contact,
-#gtco-numbers,
 #gtco-clients {
   padding: 7em 0;
+  clear: both;
+}
+
+#gtco-numbers {
+  padding: 4em 0;
   clear: both;
 }
 
@@ -1719,8 +1723,8 @@ btn-info new: 095169
 }
 
 .testimonial-carousel .owl-nav {
-  position: absolute;
-  width: 350px;
+  position: relative;
+  width: 250px;
   top: 20px;
   left: 50%;
   transform: translateX(-50%);
