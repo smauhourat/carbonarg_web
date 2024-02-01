@@ -2128,6 +2128,10 @@ video {
   filter: sepia(25%);
 }
 
+#gtco-numbers {
+  /* background: rgba(5, 155, 154, .8); */
+  background: rgba(9, 81, 105, .8);
+}
 
 #gtco-numbers .heading {
   position: relative;
