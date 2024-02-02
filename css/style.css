@@ -2176,6 +2176,10 @@ video {
 
 #gtco-numbers {
   /* background: rgba(5, 155, 154, .8); */
+  /* background: rgba(9, 81, 105, .8); */
+}
+
+.bg-parallax {
   background: rgba(9, 81, 105, .8);
 }
 
