@@ -1643,6 +1643,10 @@ btn-info new: 095169
   border-radius: 18px !important;
 }
 
+.rounded-2 {
+  border-radius: 8px !important;
+}
+
 .rounded-top {
   border-radius: 18px 18px 0 0 !important;
 }
@@ -1699,6 +1703,9 @@ btn-info new: 095169
   padding-bottom: 2.75rem;
 }
 
+.service-item ul {
+  padding-bottom: 2.75rem;
+}
 
 /*** Testimonial ***/
 
@@ -2092,6 +2099,8 @@ btn-info new: 095169
   background-color: #059B9A;
   box-shadow: 0 0 45px rgba(0, 0, 0, .2);
   color: #fff;
+
+  border-radius: 48px 48px 0 48px !important;
 }
 
 .card1 h3 {
@@ -2101,6 +2110,8 @@ btn-info new: 095169
 .card2 {
   background-color: #232E5B;
   color: #fff;
+
+  border-radius: 48px 0 48px 48px !important;
 }
 
 .card2 h3 {
@@ -2110,6 +2121,8 @@ btn-info new: 095169
 .card3 {
   background-color: #90c75c;
   color: #fff;
+
+  border-radius: 48px 48px 48px 0 !important;
 }
 
 .card3 h3 {
@@ -2118,6 +2131,7 @@ btn-info new: 095169
 
 .card4 {
   background-color: #cecece;
+  border-radius: 0 48px 48px 48px !important;
 }
 
 .card4 h3 {
