@@ -19,6 +19,7 @@
   $mail->FromName = 'Contacto-Web';
   $mail->AddAddress('santiagomauhourat@hotmail.com')
 
-   echo "OK6";
+   echo "OK8";
+   //echo  phpversion();
 
 ?>
