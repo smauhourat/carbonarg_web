@@ -207,6 +207,10 @@
 								el.addClass('slideInLeft animated-fast');
 							} else if (effect === 'slideInRight') {
 								el.addClass('slideInRight animated-fast');
+							} else if (effect === 'zoomInUp') {
+								el.addClass('zoomInUp animated-fast');
+
+
 							} else {
 								el.addClass('fadeInUp animated-fast');
 							}
