@@ -837,7 +837,7 @@ figure {
 }
 
 .heading .sub {
-  text-align: justify;
+  text-align: center;
   /*nuevo*/
   position: relative;
   padding-bottom: 40px;
