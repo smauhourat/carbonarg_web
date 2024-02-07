@@ -1009,7 +1009,8 @@ form label {
 #gtco-header .display-tc h1,
 .gtco-cover .display-tc h1 {
   margin-bottom: 30px;
-  font-size: 59px;
+  /* font-size: 59px; */
+  font-size: calc(1.575rem + 3.9vw);
   line-height: 1.5;
   font-weight: 100;
 }
@@ -1018,7 +1019,9 @@ form label {
 
   #gtco-header .display-tc h1,
   .gtco-cover .display-tc h1 {
-    font-size: 34px;
+    /* font-size: 34px; */
+    font-size: 40px;
+    /*NUEVO SAN*/
     line-height: 1.2;
     margin-bottom: 10px;
   }
@@ -2338,4 +2341,82 @@ video {
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
+}
+
+
+/*** Facts ***/
+.facts-overlay {
+  position: absolute;
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  background: rgba(0, 0, 0, .65);
+}
+
+.facts-overlay h1 {
+  /* font-size: 120px; */
+  font-size: 38px;
+  /* color: transparent; */
+  color: #fff;
+  /* -webkit-text-stroke: 2px #fff; */
+}
+
+.facts-overlay a:hover {
+  color: #fff !important;
+}
+
+.display-1 {
+  font-size: calc(1.625rem + 4.5vw);
+  font-weight: 700;
+  /* font-weight: 500; */
+  line-height: 1.2
+}
+
+@media (min-width: 1200px) {
+  .display-1 {
+    font-size: 5rem
+  }
+}
+
+.facts-overlay1 {
+  position: absolute;
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  background: rgba(3, 65, 65, 0.65);
+}
+
+.facts-overlay1 h1 {
+  font-size: 38px;
+  color: #fff;
+}
+
+.facts-overlay2 {
+  position: absolute;
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  background: rgba(23, 31, 61, 0.65);
+}
+
+.facts-overlay2 h1 {
+  font-size: 38px;
+  color: #fff;
+}
+
+.overflow-hidden {
+  overflow: hidden !important
 }
